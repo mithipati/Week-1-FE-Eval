@@ -1,0 +1,22 @@
+.footerSocial {
+  margin: 0 auto;
+}
+
+.social-data-holder {
+  float: right;
+}
+
+.foot {
+  float: left;
+}
+
+.socialIcons ul {
+  float: left;
+  list-style: none;
+}
+
+.socialIcons ul li {
+  display: inline-block;
+}
+
+
