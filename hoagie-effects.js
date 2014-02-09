@@ -6,6 +6,10 @@ $(document).ready(function() {
         $(".salads").removeClass("blue");
         $(".other").removeClass("blue");
         $(".first").fadeIn('slow');
+        $(".second").fadeOut('slow');
+        $(".third").fadeOut('slow');
+        $(".fourth").fadeOut('slow');
+        $(".fifth").fadeOut('slow');
     });
     $(".hoagies").click(function(){
         $(".hoagies").addClass("blue");
@@ -69,5 +73,11 @@ $(document).ready(function() {
     });
     $(".button").hover(function(){
         $(this).toggleClass("fade");
+    });
+    $('.icon').mouseenter(function(){
+        $(this).removeClass("grayscale");
+    });
+    $('.icon').mouseleave(function(){
+        $(this).addClass("grayscale");
     });
 });
