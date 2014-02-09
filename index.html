@@ -17,6 +17,7 @@
 
       <!-- BODY CONTENT -->
 
+    <div class="background">
       <div class="row top">
         <div class="large-6 large-centered columns">
           <dl class="tabs" id="myTabs" data-tab>
@@ -26,19 +27,28 @@
             <dd><a href="#panel2-4">Contact</a></dd>
           </dl>
         </div>
-
           <div class="tabs-content">
               <div class="content active" id="panel2-1">
                 <div class="row body1">
-                    <div class="detail">
-                        <div class="insert-detail">
+
+                  <div class="large-6 columns">
+                        <div id="home-detail">
+                          <div class="insert">
                             <h5>Tell me more about Hoagie Haven</h5>
                             <p>There's no better place to get a hoagie. Spices? SaltPeppaKetchup?...Next, next in line. Where good friends meet to eat...mmmm, this is good.</p>
+                          <!-- </div> -->
+                          <!-- <div class="insert"> -->
                             <h5>Going Back</h5>
                             <p>to the early 1970's, Hoagie Haven was the first to serve up large hoagies in the Princeton area. With help from Italian People's Bakery, Uncle Haven demanded a larger and larger roll to fill with delicious foods. Finally, when the roll couldn't fit on the counter, they knew it was big enough. By keeping it in the family, Uncle Haven's nephews, Mike, Niko, and Costa Maltabes are now running the business.</p>
+                          <!-- </div> -->
+                          <!-- <div class="insert"> -->
                             <h4>Cheers!</h4>
+                          </div>
                         </div>
-                    </div>
+                      </div>
+                  <div class="large-6 columns">
+                      <img class="founders" src="../hoagie-images/founders.png">
+                  </div>
                 </div>
               </div>
               <div class="content" id="panel2-2">
@@ -48,6 +58,7 @@
               <div class="content" id="panel2-4"></div>
           </div>
         </div>
+      </div>
 
           <!-- FOOTER CONTENT -->
 
@@ -97,8 +108,14 @@
     <script src="../foundation-5.1.1/js/vendor/jquery.js"></script>
     <script src="../foundation-5.1.1/js/vendor/fastclick.js"></script>
     <script src="../foundation-5.1.1/js/foundation.min.js"></script>
-    <script>
+    <script src="../foundation-5.1.1/js/foundation/foundation.orbit.js"></script>
+       <script>
         $(document).foundation();
+       </script>
+    <script type="text/javascript">
+        // $(window).load(function() {
+        //     $("#home-detail").orbit({ fluid: '16x9'} )
+        });
     </script>
   </body>
 </html>
