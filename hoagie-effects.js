@@ -1,6 +1,10 @@
 $(document).ready(function() {
     $("#menu").click(function(){
         $(".hoagies").addClass("blue");
+        $(".sandwiches").removeClass("blue");
+        $(".sides").removeClass("blue");
+        $(".salads").removeClass("blue");
+        $(".other").removeClass("blue");
         $(".first").fadeIn('slow');
     });
     $(".hoagies").click(function(){
