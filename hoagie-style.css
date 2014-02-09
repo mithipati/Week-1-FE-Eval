@@ -127,6 +127,10 @@
   color: rgb(169,67,26) !important;
 }
 
+.content .contact-form {
+  font-family: Istok Web;
+}
+
 .content p {
   font-family: Istok Web;
 }
