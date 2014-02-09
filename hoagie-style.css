@@ -31,8 +31,19 @@
   font-family: Cuprum;
   font-size: 5em;
   color: rgb(169,67,26);
+  letter-spacing: .2em;
+  margin-bottom: -.1em;
 }
 
+.tabs dd a {
+  font-family: Istok Web !important;
+  font-weight: 700 !important;
+  color: rgb(169,67,26) !important;
+}
+
+.tabs {
+  background-color: url(http://www.funwallz.com/image/dotted-gradient-theumad-ddc-hd-wallpaper-23577.jpg) !important;
+}
 
 /*MENU BODY INFROMATION*/
 
@@ -100,15 +111,18 @@
 }
 
 .content h4 {
-  font-family: Istok Web;
+  font-family: Satisfy;
+  font-size: 2em;
+  /*text-shadow: 0 -1px 1px rgba(0,1,1,0.15);*/
   font-style: italic;
   color: rgb(169,67,26) !important;
 }
 
 .content h3 {
+  font-family: Satisfy;
   padding-top: .8em;
+  padding-left: .3em;
   font-size: 5em;
-  font-family: Istok Web;
   font-style: italic;
   color: rgb(169,67,26) !important;
 }
@@ -171,13 +185,22 @@ button, .button {
 
 
 /*CONTACT PAGE*/
+#left-side {
+  background-image: url(http://www.funwallz.com/image/dotted-gradient-theumad-ddc-hd-wallpaper-23577.jpg);
+  border-radius: 2em;
+}
+
+.bold {
+  font-weight: 700;
+}
 
 #left-side h3 {
-  color: white;
+  text-shadow: 0 -1px 1px rgba(0,1,1,0.15);
   font-size: 1.5em;
 }
 
 #left-side p {
+  text-shadow: 1px 1px 1px rgba(0,1,1,0.15);
   color: white;
 }
 
@@ -185,13 +208,21 @@ button, .button {
   color: white;
 }
 
+iframe {
+  padding-top: 2em;
+}
+
 
 /*SOCIAL FOOOTER INFORMATION*/
 
+
+/*MAY CHANGE THE PADDING...LOOK HERE FOR MAKING THE CHANGE!*/
+/*MAY CHANGE THE PADDING...LOOK HERE FOR MAKING THE CHANGE!*/
+/*MAY CHANGE THE PADDING...LOOK HERE FOR MAKING THE CHANGE!*/
 .footer_box {
   background-image: url(http://www.funwallz.com/image/dotted-gradient-theumad-ddc-hd-wallpaper-23577.jpg);
-  /*background-repeat: no-repeat;*/
   margin: 0;
+  padding-top: 3em;
 }
 .footer_box h5, .footer_box h6, .footer_box p {
   font-family: Istok Web;
