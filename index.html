@@ -22,7 +22,7 @@
         <div class="large-6 large-centered columns">
           <dl class="tabs" id="myTabs" data-tab>
             <dd class="active"><a href="#panel2-1">Home</a></dd>
-            <dd><a href="#panel2-2">Menu</a></dd>
+            <dd><a id="menu" href="#panel2-2">Menu</a></dd>
             <dd><a href="#panel2-3">Store</a></dd>
             <dd><a href="#panel2-4">Contact</a></dd>
           </dl>
@@ -64,7 +64,31 @@
                 </div>
               </div>
               <div class="content" id="panel2-2">
-                  <p>Hello</p>
+
+                  <div class="row">
+                    <div class="large-4 columns">
+                      <div class="menu-holder">
+                        <ul class="menu-list">
+                            <li><a href="#" class="button hoagies">Hoagies</a></li>
+                            <li><a href="#" class="button sandwiches">Sandwiches</a></li>
+                            <li><a href="#" class="button sides">Sides</a></li>
+                            <li><a href="#" class="button salads">Salads</a></li>
+                            <li><a href="#" class="button other">Other</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="large-8 columns">
+                        <div class="image-holder">
+                            <img class="menu first" src="../hoagie-images/hoagies.png">
+                            <img class="menu second" src="../hoagie-images/sandwiches.png">
+                            <img class="menu third" src="../hoagie-images/sides.png">
+                            <img class="menu fourth" src="../hoagie-images/salads.png">
+                            <img class="menu fifth" src="../hoagie-images/other.png">
+                        </div>
+                    </div>
+                  </div>
+
+
               </div>
               <div class="content" id="panel2-3"></div>
               <div class="content" id="panel2-4"></div>
@@ -121,14 +145,14 @@
     <script src="../foundation-5.1.1/js/vendor/fastclick.js"></script>
     <script src="../foundation-5.1.1/js/foundation.min.js"></script>
     <script src="../foundation-5.1.1/js/foundation/foundation.orbit.js"></script>
+    <script src="../foundation-5.1.1/js/foundation/foundation.magellan.js"></script>
     <script>
         $(document).foundation();
     </script>
      <script type="text/javascript">
         $(document).foundation({
           orbit: {
-              animation: 'slide',
-              fluid: '16x6'
+              animation: 'slide'
           }
         });
     </script>

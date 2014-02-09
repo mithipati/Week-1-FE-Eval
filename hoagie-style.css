@@ -3,6 +3,7 @@
 
 .background {
   background-image: url(http://a4.urbancdn.com/w/s/ic/UlQUgQVTigLt7G.jpg);
+  background-repeat: no-repeat;
   margin: 0;
 }
 
@@ -87,6 +88,48 @@
 
 .founders {
   border: 5px #fff solid
+}
+
+
+/*MENU PAGE*/
+
+
+.menu {
+  display: none;
+  border-radius: 10px;
+}
+
+.menu-holder {
+  background-image: url(http://www.loumalnatis.com/resources/assets/images/layout/bg-paper-tile.jpg);
+}
+
+.menu-list {
+  padding-top: 2em;
+  float: right;
+  list-style: none;
+}
+
+
+.button {
+  border-radius: 10px;
+}
+
+button, .button {
+  background-color: rgb(206, 76, 0) !important;
+}
+
+.fade {
+  opacity: 0.5;
+  background-color: rgb(45,95,216) !important;
+}
+
+.blue {
+  background-color: rgb(45,95,216) !important;
+}
+
+.image-holder {
+  margin-left: 7em;
+  padding: 2em;
 }
 
 
