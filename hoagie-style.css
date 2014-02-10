@@ -138,10 +138,13 @@
 .founders {
   border: 5px #fff solid;
   margin-top: 5em;
-  -webkit-transform: rotate(10deg)
+  -webkit-transform: rotate(10deg);
 }
 
-
+.foundersnew {
+  border: 5px #fff solid;
+  margin-top: 5em;
+}
 
 
 /*MENU PAGE*/
