@@ -142,14 +142,10 @@
 }
 
 
+
+
 /*MENU PAGE*/
 
-
-.menu {
-  display: none;
-  border-radius: 10px;
-  margin-left: 4em;
-}
 
 .menu-holder {
   background-image: url(http://www.loumalnatis.com/resources/assets/images/layout/bg-paper-tile.jpg);
@@ -183,9 +179,26 @@ button, .button {
 }
 
 .image-holder {
-  /*margin-left: 12em;*/
   padding: 2em;
+  position: relative;
+  /*background-image: url(http://www.funwallz.com/image/dotted-gradient-theumad-ddc-hd-wallpaper-23577.jpg);*/
 }
+
+.menu {
+  display: none;
+  border-radius: 10px;
+  margin-left: 2em;
+  position: absolute;
+}
+
+/*menu.third, menu.fourth {
+  margin-left: 2em;
+}
+
+.fifth {
+  margin-left: .2em;
+}*/
+
 
 
 /*CONTACT PAGE*/
@@ -214,6 +227,40 @@ button, .button {
 
 iframe {
   padding-top: 2em;
+}
+
+
+/*STORE INFROMATION*/
+
+.body3 {
+  background-image: url(http://www.funwallz.com/image/dotted-gradient-theumad-ddc-hd-wallpaper-23577.jpg);
+  border-radius: 10px;
+}
+
+.store1, .store2 {
+  text-align: center;
+}
+
+.store1 h3 {
+  font-size: 2em;
+  font-family: Istok Web;
+}
+
+.store1 img {
+  border-radius: 2em;
+}
+
+.store2 h6 {
+  padding-top: 1em;
+  color: white;
+}
+
+.store3 a {
+  text-align: center;
+}
+
+.store3 .button {
+  margin-left: 2em;
 }
 
 

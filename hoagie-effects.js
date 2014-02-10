@@ -1,16 +1,23 @@
 $(document).ready(function() {
+    $(".hoagies").addClass("blue");
+    $(".first").fadeIn('fast');
+
+
+    // UNCOMMENT IN CASE WANT 'MENU' BUTTON TO RESET MENU PAGE
     $("#menu").click(function(){
-        $(".hoagies").addClass("blue");
-        $(".sandwiches").removeClass("blue");
-        $(".sides").removeClass("blue");
-        $(".salads").removeClass("blue");
-        $(".other").removeClass("blue");
-        $(".first").fadeIn('slow');
-        $(".second").fadeOut('slow');
-        $(".third").fadeOut('slow');
-        $(".fourth").fadeOut('slow');
-        $(".fifth").fadeOut('slow');
+        // $(".hoagies").addClass("blue");
+        // $(".sandwiches").removeClass("blue");
+        // $(".sides").removeClass("blue");
+        // $(".salads").removeClass("blue");
+        // $(".other").removeClass("blue");
+        // $(".first").fadeIn('slow');
+        // $(".second").fadeOut('slow');
+        // $(".third").fadeOut('slow');
+        // $(".fourth").fadeOut('slow');
+        // $(".fifth").fadeOut('slow');
     });
+
+
     $(".hoagies").click(function(){
         $(".hoagies").addClass("blue");
         $(".sandwiches").removeClass("blue");
@@ -79,5 +86,18 @@ $(document).ready(function() {
     });
     $('.icon').mouseleave(function(){
         $(this).addClass("grayscale");
+    });
+    $(document).foundation({
+          orbit: {
+              animation: 'slide',
+              timer_speed: 10000,
+              pause_on_hover: true,
+              resume_on_mouseout: false,
+              animation_speed: 500,
+              slide_number: false,
+              circular: true,
+              timer: true,
+              container_class: 'orbit-content'
+          }
     });
 });
