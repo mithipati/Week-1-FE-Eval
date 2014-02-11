@@ -4,18 +4,18 @@ $(document).ready(function() {
 
 
     // UNCOMMENT IN CASE WANT 'MENU' BUTTON TO RESET MENU PAGE
-    $("#menu").click(function(){
-        // $(".hoagies").addClass("blue");
-        // $(".sandwiches").removeClass("blue");
-        // $(".sides").removeClass("blue");
-        // $(".salads").removeClass("blue");
-        // $(".other").removeClass("blue");
-        // $(".first").fadeIn('slow');
-        // $(".second").fadeOut('slow');
-        // $(".third").fadeOut('slow');
-        // $(".fourth").fadeOut('slow');
-        // $(".fifth").fadeOut('slow');
-    });
+    // $("#menu").click(function(){
+    //     $(".hoagies").addClass("blue");
+    //     $(".sandwiches").removeClass("blue");
+    //     $(".sides").removeClass("blue");
+    //     $(".salads").removeClass("blue");
+    //     $(".other").removeClass("blue");
+    //     $(".first").fadeIn('fast');
+    //     $(".second").fadeOut('fast');
+    //     $(".third").fadeOut('fast');
+    //     $(".fourth").fadeOut('fast');
+    //     $(".fifth").fadeOut('fast');
+    // });
 
 
     $(".hoagies").click(function(){
@@ -100,4 +100,5 @@ $(document).ready(function() {
               container_class: 'orbit-content'
           }
     });
+
 });
